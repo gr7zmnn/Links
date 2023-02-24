@@ -132,10 +132,6 @@ body {
         transform: translateY(-2000px);
     }
 }
-
-
-/*-------------------------popup------------------------*/
-/* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
 .overlay {
     display: flex;
     align-items: center;
@@ -156,17 +152,15 @@ body {
 .popup {
     position: relative;
     top: -43%;
-    /* right: -100vh; */
+ 
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 400px;
-    /* max-height: 500px; */
     width: auto;
     height: auto;
     margin: 56px;
     background-color: var(--bgColor);
-    /* transform: rotate(32deg); */
     transform: scale(0);
     transition: .5s ease-in-out;
 }
@@ -200,8 +194,6 @@ body {
 .overlay:target .popup {
     transform: scale(1);
     top: 0;
-    /* right: 0; */
-    /* transform: rotate(0); */
 }
 
 .popup-close {
@@ -235,9 +227,6 @@ body {
     color: var(--bgColor);
 }
 
-
-/*-----------------------parallax-----------------------*/
-/* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
 #stars1 {
     width: 1px;
     height: 1px;
